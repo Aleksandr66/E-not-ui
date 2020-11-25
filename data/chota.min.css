@@ -734,9 +734,11 @@ input:disabled:hover {
   background: var(--bg-color);
   -webkit-box-shadow: 0 1px 3px var(--color-grey);
   box-shadow: 0 1px 3px var(--color-grey);
+  z-index: 10;
 }
 .card p:last-child {
   margin: 0;
+  
 }
 .card header > * {
   margin-top: 0;
